@@ -15,9 +15,6 @@
         <activity android:name=".category.gate_category" />
         <activity android:name=".category.upsc_category" />
         <activity android:name=".category.toefl_category" />
-        <activity
-            android:name=".ui.login.gk_category"
-            android:label="@string/title_activity_gk_category" />
         <activity android:name=".category.neet_category" />
         <activity android:name=".category.ielts_category" />
         <activity android:name=".category.cat_category" />

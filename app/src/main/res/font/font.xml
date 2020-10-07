@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/pt_sans_narrow_bold" />
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/pt_sans_narrow_regular" />
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/sansita_swashed_variable_font_wght" />
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/the_wanters_demo" />
+</font-family>
