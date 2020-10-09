@@ -28,7 +28,122 @@
         android:id="@+id/rl2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar">
+        android:layout_below="@id/toolbar"
+        android:background="@color/colorAccent">
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:fontFamily="@font/sansita_swashed_variable_font_wght"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="35dp"
+            android:autoSizeMaxTextSize="45dp"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="330dp"
+            android:layout_height="380dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_inside1"
+            android:layout_below="@id/login"
+            android:orientation="vertical"
+            android:weightSum="20">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="8"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextField"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:hint="Email"
+                android:textColorHint="@color/colorPrimary"
+                app:hintTextColor="@color/colorPrimaryDark"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/rect_transparent"
+                android:paddingTop="5dp">
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/roboto_condensed_regular"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="textEmailAddress"
+                    android:textCursorDrawable="@null"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/filledTextField1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:hint="Password"
+                android:textColorHint="@color/colorPrimary"
+                app:hintTextColor="@color/colorPrimaryDark"
+                app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+                app:endIconMode="password_toggle"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/rect_transparent"
+                android:paddingTop="5dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/roboto_condensed_regular"
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/textButton"
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:text="Login"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorAccent"
+                />
+        </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ll1"
+            android:text="No account yet? Create one"
+            android:autoSizeMinTextSize="18dp"
+            android:autoSizeMaxTextSize="22dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            app:fontFamily="@font/roboto_condensed_regular">
+
+        </com.google.android.material.textview.MaterialTextView>
     </RelativeLayout>
 </RelativeLayout>

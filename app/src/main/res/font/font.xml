@@ -16,4 +16,8 @@
         android:fontStyle="italic"
         android:fontWeight="400"
         android:font="@font/the_wanters_demo" />
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/roboto_condensed_regular" />
 </font-family>
