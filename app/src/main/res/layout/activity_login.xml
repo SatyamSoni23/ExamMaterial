@@ -42,32 +42,31 @@
             android:autoSizeTextType="uniform"
             android:textColor="@color/colorPrimaryDark"
             android:gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_above="@+id/ll1"
             android:layout_marginBottom="20dp"
             />
         <LinearLayout
             android:id="@+id/ll1"
-            android:layout_width="330dp"
-            android:layout_height="380dp"
+            android:layout_width="340dp"
+            android:layout_height="340dp"
             android:layout_centerInParent="true"
-            android:background="@drawable/login_inside1"
-            android:layout_below="@id/login"
+            android:background="@drawable/login_inside2"
             android:orientation="vertical"
             android:weightSum="20">
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="8"/>
+                android:layout_weight="6.5"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/outlinedTextField"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="3"
+                android:layout_weight="3.3"
                 android:hint="Email"
                 android:textColorHint="@color/colorPrimary"
                 app:hintTextColor="@color/colorPrimaryDark"
                 app:startIconDrawable="@drawable/ic_baseline_email_24"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="35dp"
                 android:background="@drawable/rect_transparent"
                 android:paddingTop="5dp">
 
@@ -87,18 +86,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.4"/>
+                android:layout_weight="0.7"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/filledTextField1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="3"
+                android:layout_weight="3.3"
                 android:hint="Password"
                 android:textColorHint="@color/colorPrimary"
                 app:hintTextColor="@color/colorPrimaryDark"
                 app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
                 app:endIconMode="password_toggle"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="35dp"
                 android:background="@drawable/rect_transparent"
                 android:paddingTop="5dp">
 
@@ -137,8 +136,8 @@
             android:layout_height="40dp"
             android:layout_below="@+id/ll1"
             android:text="No account yet? Create one"
-            android:autoSizeMinTextSize="18dp"
-            android:autoSizeMaxTextSize="22dp"
+            android:autoSizeMinTextSize="14dp"
+            android:autoSizeMaxTextSize="18dp"
             android:autoSizeTextType="uniform"
             android:gravity="center"
             android:textColor="@color/colorPrimaryDark"
