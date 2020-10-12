@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/splash_screen">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>

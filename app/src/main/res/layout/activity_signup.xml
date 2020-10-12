@@ -121,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="3.3"
-                android:hint="Password"
+                android:hint="Confirm Password"
                 android:textColorHint="@color/colorPrimary"
                 app:hintTextColor="@color/colorPrimaryDark"
                 app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
