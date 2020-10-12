@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".category.other_category"></activity>
+        <activity android:name=".category.IitJeeAdvancedCategoryActivity"></activity>
+        <activity android:name=".category.other_category" />
         <activity android:name=".category.pmp_itil_category" />
         <activity android:name=".category.cmat_nda_cet_gpat_sat_category" />
         <activity android:name=".category.gate_category" />

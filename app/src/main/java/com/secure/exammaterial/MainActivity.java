@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, signup.class);
+        Intent intent = new Intent(this, IitJeeAdvancedCategoryActivity.class);
         startActivity(intent);
     }
 }

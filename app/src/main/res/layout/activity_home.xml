@@ -88,45 +88,45 @@
                                 android:fontFamily="@font/pt_sans_narrow_regular"
                                 />
                         </RelativeLayout>
-                </com.google.android.material.card.MaterialCardView>
+                    </com.google.android.material.card.MaterialCardView>
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="10"
-                    android:theme="@style/Theme.MaterialComponents.Light"
-                    app:cardElevation="8dp"
-                    app:cardCornerRadius="8dp"
-                    android:layout_marginLeft="5dp"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:checkable="true">
-                    <RelativeLayout
-                        android:layout_width="match_parent"
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:background="@color/colorPrimaryDark">
-                        <ImageView
-                            android:id="@+id/advanced"
+                        android:layout_weight="10"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:checkable="true">
+                        <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:src="@drawable/jeeadvanced"
-                            android:scaleType="fitXY"/>
-                        <TextView
-                            android:id="@+id/advanced_text"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_below="@+id/advanced"
-                            android:text="Jee Advanced"
-                            android:textColor="@color/white"
-                            android:autoSizeMinTextSize="15dp"
-                            android:autoSizeMaxTextSize="20dp"
-                            android:autoSizeTextType="uniform"
-                            android:gravity="center"
-                            android:fontFamily="@font/pt_sans_narrow_regular"
-                            />
-                    </RelativeLayout>
-                </com.google.android.material.card.MaterialCardView>
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@color/colorPrimaryDark">
+                            <ImageView
+                                android:id="@+id/advanced"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/jeeadvanced"
+                                android:scaleType="fitXY"/>
+                            <TextView
+                                android:id="@+id/advanced_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/advanced"
+                                android:text="Jee Advanced"
+                                android:textColor="@color/white"
+                                android:autoSizeMinTextSize="15dp"
+                                android:autoSizeMaxTextSize="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:gravity="center"
+                                android:fontFamily="@font/pt_sans_narrow_regular"
+                                />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/ll2"
