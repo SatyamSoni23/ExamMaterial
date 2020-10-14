@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.secure.exammaterial">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -9,7 +12,8 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".category.IitJeeAdvancedCategoryActivity"></activity>
+        <activity android:name=".pdf_viewer"></activity>
+        <activity android:name=".category.IitJeeAdvancedCategoryActivity" />
         <activity android:name=".category.other_category" />
         <activity android:name=".category.pmp_itil_category" />
         <activity android:name=".category.cmat_nda_cet_gpat_sat_category" />

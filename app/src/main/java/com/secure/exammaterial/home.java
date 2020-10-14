@@ -16,6 +16,7 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     NavigationView navigationView;
+    public static String url = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
