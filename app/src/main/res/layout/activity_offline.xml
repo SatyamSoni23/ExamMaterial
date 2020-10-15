@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pdf_viewer">
+    tools:context=".offline"
+    android:background="@color/colorAccent">
     <androidx.drawerlayout.widget.DrawerLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -23,51 +24,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 app:titleTextColor="@android:color/white"
-                android:background="?attr/colorPrimary"
-                app:navigationIcon="@drawable/ic_side_nav">
+                android:background="?attr/colorPrimary">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/app_name"
                     android:gravity="center_vertical"
                     android:fontFamily="@font/the_wanters_demo"
+                    android:paddingLeft="40dp"
                     android:autoSizeMinTextSize="15dp"
                     android:autoSizeMaxTextSize="22dp"
                     android:autoSizeTextType="uniform"
                     android:textColor="@color/white"/>
             </androidx.appcompat.widget.Toolbar>
-            <WebView
-                android:id="@+id/webview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/toolbar"/>
-            <RelativeLayout
-                android:id="@+id/progress_bar"
+            <ImageView
+                android:id="@+id/offline"
+                android:layout_width="175dp"
+                android:layout_height="200dp"
+                android:src="@drawable/offline"
+                android:layout_centerInParent="true"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button"
                 android:layout_width="150dp"
-                android:layout_height="180dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/pdfsolid"
-                android:alpha="1.0">
-                <com.agrawalsuneet.loaderspack.loaders.SearchLoader
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:search_defaultStartLoading="true"
-                    app:search_lensBorderWidth="5dp"
-                    app:search_lensColor="@color/colorAccent"
-                    android:layout_margin="10dp"
-                    app:search_lensHandleLength="20dp"
-                    app:search_lensRadius="14dp"
-                    app:search_xRangeToSearch="120dp"
-                    app:search_yRangeToSearch="120dp" />
-            </RelativeLayout>
+                android:layout_height="50dp"
+                android:layout_below="@id/offline"
+                android:layout_centerHorizontal="true"
+                android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeMaxTextSize="18sp"
+                android:autoSizeTextType="uniform"
+                android:text="Home"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorAccent" />
         </RelativeLayout>
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/navigation_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:clipToPadding="false"
-            app:headerLayout="@layout/side_navigation_header"
-            app:menu="@menu/menu" />
     </androidx.drawerlayout.widget.DrawerLayout>
-</LinearLayout>
+</RelativeLayout>

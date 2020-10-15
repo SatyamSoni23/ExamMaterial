@@ -48,7 +48,7 @@
                     <LinearLayout
                         android:id="@+id/ll1"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
@@ -81,7 +81,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2020_1"
                                     android:text="2020 Paper 1"
                                     android:textColor="@color/white"
@@ -95,6 +95,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2020_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -106,7 +107,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2020_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -124,7 +124,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2020_2"
                                     android:text="2020 Paper 2"
                                     android:textColor="@color/white"
@@ -140,11 +140,12 @@
                     <LinearLayout
                         android:id="@+id/ll2"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll1"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2019_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -156,7 +157,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2019_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -174,7 +174,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2019_1"
                                     android:text="2019 Paper 1"
                                     android:textColor="@color/white"
@@ -188,6 +188,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2019_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -199,7 +200,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2019_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -217,7 +217,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2019_2"
                                     android:text="2019 Paper 2"
                                     android:textColor="@color/white"
@@ -233,11 +233,12 @@
                     <LinearLayout
                         android:id="@+id/ll3"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll2"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2018_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -249,7 +250,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2018_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -267,7 +267,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2018_1"
                                     android:text="2018 Paper 1"
                                     android:textColor="@color/white"
@@ -281,6 +281,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2018_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -292,7 +293,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2018_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -310,7 +310,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2018_2"
                                     android:text="2018 Paper 2"
                                     android:textColor="@color/white"
@@ -326,11 +326,12 @@
                     <LinearLayout
                         android:id="@+id/ll4"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll3"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2017_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -342,7 +343,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2017_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -360,7 +360,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2017_1"
                                     android:text="2017 Paper 1"
                                     android:textColor="@color/white"
@@ -374,6 +374,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2017_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -385,7 +386,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2017_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -403,7 +403,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2017_2"
                                     android:text="2017 Paper 2"
                                     android:textColor="@color/white"
@@ -419,11 +419,12 @@
                     <LinearLayout
                         android:id="@+id/ll5"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll4"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2016_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -435,7 +436,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2016_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -453,7 +453,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2016_1"
                                     android:text="2016 Paper 1"
                                     android:textColor="@color/white"
@@ -467,6 +467,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2016_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -478,7 +479,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2016_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -496,7 +496,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2016_2"
                                     android:text="2016 Paper 2"
                                     android:textColor="@color/white"
@@ -512,11 +512,12 @@
                     <LinearLayout
                         android:id="@+id/ll6"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll5"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2015_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -528,7 +529,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2015_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -546,7 +546,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2015_1"
                                     android:text="2015 Paper 1"
                                     android:textColor="@color/white"
@@ -560,6 +560,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2015_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -571,7 +572,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2015_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -589,7 +589,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2015_2"
                                     android:text="2015 Paper 2"
                                     android:textColor="@color/white"
@@ -605,11 +605,12 @@
                     <LinearLayout
                         android:id="@+id/ll7"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll6"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2014_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -621,7 +622,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2014_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -639,7 +639,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2014_1"
                                     android:text="2014 Paper 1"
                                     android:textColor="@color/white"
@@ -653,6 +653,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2014_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -664,7 +665,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2014_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -682,7 +682,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2014_2"
                                     android:text="2014 Paper 2"
                                     android:textColor="@color/white"
@@ -700,11 +700,12 @@
                     <LinearLayout
                         android:id="@+id/ll8"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll7"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2013_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -716,7 +717,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2013_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -734,7 +734,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2013_1"
                                     android:text="2013 Paper 1"
                                     android:textColor="@color/white"
@@ -748,6 +748,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2013_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -759,7 +760,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2013_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -777,7 +777,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2013_2"
                                     android:text="2013 Paper 2"
                                     android:textColor="@color/white"
@@ -793,11 +793,12 @@
                     <LinearLayout
                         android:id="@+id/ll9"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll8"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2012_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -809,7 +810,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2012_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -827,7 +827,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2012_1"
                                     android:text="2012 Paper 1"
                                     android:textColor="@color/white"
@@ -841,6 +841,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2012_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -852,7 +853,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2012_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -870,7 +870,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2012_2"
                                     android:text="2012 Paper 2"
                                     android:textColor="@color/white"
@@ -886,11 +886,12 @@
                     <LinearLayout
                         android:id="@+id/ll10"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll9"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2011_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -902,7 +903,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2011_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -920,7 +920,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2011_1"
                                     android:text="2011 Paper 1"
                                     android:textColor="@color/white"
@@ -934,6 +934,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2011_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -945,7 +946,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2011_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -963,7 +963,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2011_2"
                                     android:text="2011 Paper 2"
                                     android:textColor="@color/white"
@@ -979,11 +979,12 @@
                     <LinearLayout
                         android:id="@+id/ll11"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll10"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2010_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -995,7 +996,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2010_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1013,7 +1013,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2010_1"
                                     android:text="2010 Paper 1"
                                     android:textColor="@color/white"
@@ -1027,6 +1027,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2010_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1038,7 +1039,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2010_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1056,7 +1056,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2010_2"
                                     android:text="2010 Paper 2"
                                     android:textColor="@color/white"
@@ -1072,11 +1072,12 @@
                     <LinearLayout
                         android:id="@+id/ll12"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll11"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2009_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1088,7 +1089,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2009_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1106,7 +1106,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2009_1"
                                     android:text="2009 Paper 1"
                                     android:textColor="@color/white"
@@ -1120,6 +1120,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2009_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1131,7 +1132,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2009_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1149,7 +1149,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2009_2"
                                     android:text="2009 Paper 2"
                                     android:textColor="@color/white"
@@ -1165,11 +1165,12 @@
                     <LinearLayout
                         android:id="@+id/ll13"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll12"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2008_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1181,7 +1182,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2008_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1199,7 +1199,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2008_1"
                                     android:text="2008 Paper 1"
                                     android:textColor="@color/white"
@@ -1213,6 +1213,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2008_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1224,7 +1225,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2008_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1242,7 +1242,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2008_2"
                                     android:text="2008 Paper 2"
                                     android:textColor="@color/white"
@@ -1258,11 +1258,12 @@
                     <LinearLayout
                         android:id="@+id/ll14"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll13"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2007_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1274,7 +1275,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2007_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1292,7 +1292,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2007_1"
                                     android:text="2007 Paper 1"
                                     android:textColor="@color/white"
@@ -1306,6 +1306,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2007_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1317,7 +1318,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2007_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1335,7 +1335,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2007_2"
                                     android:text="2007 Paper 2"
                                     android:textColor="@color/white"
@@ -1351,11 +1351,12 @@
                     <LinearLayout
                         android:id="@+id/ll15"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll14"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2006_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1367,7 +1368,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2006_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1385,7 +1385,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2006_1"
                                     android:text="2006 Paper 1"
                                     android:textColor="@color/white"
@@ -1399,6 +1399,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2006_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1410,7 +1411,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2006_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1428,7 +1428,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2006_2"
                                     android:text="2006 Paper 2"
                                     android:textColor="@color/white"
@@ -1444,11 +1444,12 @@
                     <LinearLayout
                         android:id="@+id/ll16"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="190dp"
                         android:weightSum="20"
                         android:layout_below="@id/ll15"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2005_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1460,7 +1461,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2005_p1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1478,7 +1478,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2005_1"
                                     android:text="2005 Paper 1"
                                     android:textColor="@color/white"
@@ -1492,6 +1492,7 @@
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2005_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -1503,7 +1504,6 @@
                             android:focusable="true"
                             android:checkable="true">
                             <RelativeLayout
-                                android:id="@+id/rl_2005_p2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
@@ -1521,7 +1521,7 @@
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:layout_height="50dp"
+                                    android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2005_2"
                                     android:text="2005 Paper 2"
                                     android:textColor="@color/white"
