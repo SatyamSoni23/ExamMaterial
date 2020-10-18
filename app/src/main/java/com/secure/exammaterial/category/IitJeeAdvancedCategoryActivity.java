@@ -20,7 +20,6 @@ import com.secure.exammaterial.pdf_viewer;
 
 public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     NavigationView navigationView;
