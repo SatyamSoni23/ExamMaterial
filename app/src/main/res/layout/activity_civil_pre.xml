@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".category.upsc_category"
+    tools:context=".upsc.civil_pre"
     android:orientation="vertical">
     <androidx.drawerlayout.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/drawer_layout">
@@ -49,7 +52,7 @@
                         android:weightSum="20"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_civil_pre"
+                            android:id="@+id/rl_2020_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -73,28 +76,26 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/civil"
-                                        android:scaleType="fitXY"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2020_1"
-                                    android:text="Civil Services (Preliminary)"
+                                    android:text="2020 GS Paper 1"
                                     android:textColor="@color/white"
-                                    android:autoSizeMinTextSize="12dp"
+                                    android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_civil_main"
+                            android:id="@+id/rl_2020_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -118,22 +119,20 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/civil"
-                                        android:padding="4dp"
-                                        android:scaleType="fitXY"/>
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2020_2"
-                                    android:text="Civil Services (Main)"
+                                    android:text="2020 GS Paper 2"
                                     android:textColor="@color/white"
-                                    android:autoSizeMinTextSize="12dp"
+                                    android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
@@ -146,7 +145,7 @@
                         android:layout_below="@id/ll1"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_nda"
+                            android:id="@+id/rl_2019_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -167,32 +166,29 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="150dp"
                                     android:background="@drawable/gradient_border">
-
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:padding="4dp"
-                                        android:src="@drawable/cmt_nda"
-                                        android:scaleType="fitXY"/>
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2019_1"
-                                    android:text="NDA &amp; NAE"
+                                    android:text="2019 GS Paper 1"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_cisf"
+                            android:id="@+id/rl_2019_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -216,22 +212,20 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/cisf"
-                                        android:scaleType="fitXY"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2019_2"
-                                    android:text="CISF AC(EXE) LDCE"
+                                    android:text="2019 GS Paper 2"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
@@ -244,7 +238,7 @@
                         android:layout_below="@id/ll2"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_cds"
+                            android:id="@+id/rl_2018_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -268,28 +262,26 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/cds"
-                                        android:scaleType="fitXY"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2018_1"
-                                    android:text="CDS"
+                                    android:text="2018 GS Paper 1"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_CGS"
+                            android:id="@+id/rl_2018_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -313,26 +305,24 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/cgs"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2018_2"
-                                    android:text="Combined Geo-Scientist"
+                                    android:text="2018 GS Paper 2"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
                     </LinearLayout>
-
                     <LinearLayout
                         android:id="@+id/ll4"
                         android:layout_width="match_parent"
@@ -341,7 +331,7 @@
                         android:layout_below="@id/ll3"
                         android:layout_marginBottom="10dp">
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_es"
+                            android:id="@+id/rl_2017_p1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -365,28 +355,26 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/es_exam"
-                                        android:scaleType="fitXY"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2017_1"
-                                    android:text="Engineering Services"
+                                    android:text="2017 GS Paper 1"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
 
                         <com.google.android.material.card.MaterialCardView
-                            android:id="@+id/rl_ifs"
+                            android:id="@+id/rl_2017_p2"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="10"
@@ -410,22 +398,299 @@
                                     <ImageView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:src="@drawable/ifs"
-                                        android:scaleType="fitXY"
+                                        android:src="@drawable/pdf2"
                                         android:padding="4dp" />
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="40dp"
                                     android:layout_below="@+id/ja_2017_2"
-                                    android:text="Indian Forest Service"
+                                    android:text="2017 GS Paper 2"
                                     android:textColor="@color/white"
                                     android:autoSizeMinTextSize="15dp"
                                     android:autoSizeMaxTextSize="20dp"
                                     android:autoSizeTextType="uniform"
                                     android:gravity="center"
                                     android:fontFamily="@font/pt_sans_narrow_regular"
-                                    android:padding="5dp"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ll5"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:weightSum="20"
+                        android:layout_below="@id/ll4"
+                        android:layout_marginBottom="10dp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2016_p1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginRight="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2016_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2016_1"
+                                    android:text="2016 GS Paper 1"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2016_p2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2016_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2016_2"
+                                    android:text="2016 GS Paper 2"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ll6"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:weightSum="20"
+                        android:layout_below="@id/ll5"
+                        android:layout_marginBottom="10dp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2015_p1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginRight="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2015_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2015_1"
+                                    android:text="2015 GS Paper 1"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2015_p2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2015_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2015_2"
+                                    android:text="2015 GS Paper 2"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ll7"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:weightSum="20"
+                        android:layout_below="@id/ll6"
+                        android:layout_marginBottom="10dp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2014_p1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginRight="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2014_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2014_1"
+                                    android:text="2014 GS Paper 1"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
+                                    />
+                            </RelativeLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/rl_2014_p2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:cardElevation="8dp"
+                            app:cardCornerRadius="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:checkable="true">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/colorPrimaryDark">
+                                <LinearLayout
+                                    android:id="@+id/ja_2014_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/gradient_border">
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/pdf2"
+                                        android:padding="4dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_below="@+id/ja_2014_2"
+                                    android:text="2014 GS Paper 2"
+                                    android:textColor="@color/white"
+                                    android:autoSizeMinTextSize="15dp"
+                                    android:autoSizeMaxTextSize="20dp"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:fontFamily="@font/pt_sans_narrow_regular"
                                     />
                             </RelativeLayout>
                         </com.google.android.material.card.MaterialCardView>
