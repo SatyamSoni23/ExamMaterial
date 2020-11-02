@@ -9,6 +9,7 @@ import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
 import com.secure.exammaterial.category.iit_jee_category;
 import com.secure.exammaterial.category.upsc_category;
 import com.secure.exammaterial.upsc.civil_pre;
+import com.secure.exammaterial.upsc.nda_nae;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, civil_pre.class);
+        Intent intent = new Intent(this, nda_nae.class);
         startActivity(intent);
     }
 }
