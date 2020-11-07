@@ -9,7 +9,11 @@ import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
 import com.secure.exammaterial.category.iit_jee_category;
 import com.secure.exammaterial.category.upsc_category;
 import com.secure.exammaterial.upsc.cds;
+import com.secure.exammaterial.upsc.cgs_category;
+import com.secure.exammaterial.upsc.cisf;
 import com.secure.exammaterial.upsc.civil_pre;
+import com.secure.exammaterial.upsc.cms;
+import com.secure.exammaterial.upsc.ies_category;
 import com.secure.exammaterial.upsc.nda_nae;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, cds.class);
+        Intent intent = new Intent(this, ies_category.class);
         startActivity(intent);
     }
 }
