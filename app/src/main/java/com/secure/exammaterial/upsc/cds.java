@@ -331,6 +331,7 @@ public class cds extends AppCompatActivity implements NavigationView.OnNavigatio
         rl_2015_p32 = findViewById(R.id.rl_2015_p32);
         rl_2014_p32 = findViewById(R.id.rl_2014_p32);
     }
+
     void startViewing(String url_res){
         Intent intent = new Intent(this, pdf_viewer.class);
         home.url = url_res;
