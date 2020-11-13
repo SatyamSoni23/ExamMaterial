@@ -14,12 +14,11 @@ import android.view.View;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.textview.MaterialTextView;
 import com.secure.exammaterial.R;
-import com.secure.exammaterial.cgs.cgs_2014;
 import com.secure.exammaterial.doc_viewer;
 import com.secure.exammaterial.home;
 import com.secure.exammaterial.pdf_viewer;
 
-public class civil_main_2019 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener{
+public class civil_main_2014 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     DrawerLayout drawerLayout;
     Toolbar toolbar;
@@ -27,28 +26,26 @@ public class civil_main_2019 extends AppCompatActivity implements NavigationView
 
     MaterialTextView gen;
     MaterialTextView l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, l13, l14, l15, l16, l17, l18, l19, l20,
-                     l21, l22, l23, l24, l25, l26, l27, l28, l29, l30, l31, l32, l33, l34;
+            l21, l22, l23, l24, l25, l26, l27, l28, l29, l30, l31, l32, l33, l34;
     MaterialTextView o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14, o15, o16, o17, o18, o19, o20,
-                     o21, o22, o23, o24, o25, o26, o27, o28, o29, o30, o31, o32, o33, o34, o35, o36, o37, o38, o39,
-                     o40, o41, o42, o43, o44, o45, o46, o47, o48, o49, o50;
+            o21, o22, o23, o24, o25, o26, o27, o28, o29, o30, o31, o32, o33, o34, o35, o36, o37, o38, o39,
+            o40, o41, o42, o43, o44, o45, o46, o47, o48, o49, o50;
     MaterialTextView c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18;
     MaterialTextView g1, g2, g3, g4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_civil_main_2019);
+        setContentView(R.layout.activity_civil_main_2014);
 
         init();
         navigationView.bringToFront();
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(civil_main_2019.this, drawerLayout, toolbar,
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(civil_main_2014.this, drawerLayout, toolbar,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.white));
         toggle.syncState();
-        navigationView.setNavigationItemSelectedListener(civil_main_2019.this);
-
-
+        navigationView.setNavigationItemSelectedListener(civil_main_2014.this);
     }
 
     private void init() {
@@ -298,327 +295,327 @@ public class civil_main_2019 extends AppCompatActivity implements NavigationView
             case R.id.gen:
                 startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-Essay.pdf");
                 break;
-                
+
             case R.id.l1:
-                startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-AssameseLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l2:
-                startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-AssameseLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l3:
-                startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-BengaliLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l4:
-                startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-BengaliLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l5:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-EnglishLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l6:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-EnglishLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l7:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GujaratiLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l8:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GujaratiLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l9:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-HindiLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l10:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-HindiLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l11:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-KannadaLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l12:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-KannadaLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l13:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MaithiliLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l14:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MaithiliLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l15:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MalayalamLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l16:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MalayalamLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l17:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-ManipuriLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l18:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-ManipuriLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l19:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MarathiLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l20:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MarathiLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l21:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-OriyaLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l22:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-OriyaLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l23:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PunjabiLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l24:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PunjabiLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l25:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SanskritLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l26:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SanskritLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l27:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SindhiLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l28:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SindhiLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l29:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TamilLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l30:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TamilLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l31:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TeluguLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l32:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TeluguLiterature-II.pdf");
+                startViewing("");
                 break;
             case R.id.l33:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-rduLiterature-I.pdf");
+                startViewing("");
                 break;
             case R.id.l34:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-UrduLiterature-II.pdf");
+                startViewing("");
                 break;
 
             case R.id.o1:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Agriculture-I.pdf");
+                startViewing("");
                 break;
             case R.id.o2:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Agriculture-II.pdf");
+                startViewing("");
                 break;
             case R.id.o3:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-AnimalHusbVetSc-I.pdf");
+                startViewing("");
                 break;
             case R.id.o4:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-AnimalHusbVetSc-II.pdf");
+                startViewing("");
                 break;
             case R.id.o5:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Anthropology-I.pdf");
+                startViewing("");
                 break;
             case R.id.o6:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Anthropology-II.pdf");
+                startViewing("");
                 break;
             case R.id.o7:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Botany-I.pdf");
+                startViewing("");
                 break;
             case R.id.o8:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Botany-II.pdf");
+                startViewing("");
                 break;
             case R.id.o9:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Chemistry-I.pdf");
+                startViewing("");
                 break;
             case R.id.o10:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Chemistry-II.pdf");
+                startViewing("");
                 break;
             case R.id.o11:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-CivilEngg-I.pdf");
+                startViewing("");
                 break;
             case R.id.o12:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-CivilEngg-II.pdf");
+                startViewing("");
                 break;
             case R.id.o13:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-CommercaAccnt-I.pdf");
+                startViewing("");
                 break;
             case R.id.o14:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-CommercaAccnt-II.pdf");
+                startViewing("");
                 break;
             case R.id.o15:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Economics-I.pdf");
+                startViewing("");
                 break;
             case R.id.o16:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Economics-II.pdf");
+                startViewing("");
                 break;
             case R.id.o17:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-ElectricalEngg-I.pdf");
+                startViewing("");
                 break;
             case R.id.o18:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-ElectricalEngg-II.pdf");
+                startViewing("");
                 break;
             case R.id.o19:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Geography-I.pdf");
+                startViewing("");
                 break;
             case R.id.o20:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Geography-II.pdf");
+                startViewing("");
                 break;
             case R.id.o21:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Geology-I.pdf");
+                startViewing("");
                 break;
             case R.id.o22:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Geology-II.pdf");
+                startViewing("");
                 break;
             case R.id.o23:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-History-I.pdf");
+                startViewing("");
                 break;
             case R.id.o24:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-History-II.pdf");
+                startViewing("");
                 break;
             case R.id.o25:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Law-I.pdf");
+                startViewing("");
                 break;
             case R.id.o26:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Law-II.pdf");
+                startViewing("");
                 break;
             case R.id.o27:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Management-I.pdf");
+                startViewing("");
                 break;
             case R.id.o28:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Management-II.pdf");
+                startViewing("");
                 break;
             case R.id.o29:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Mathematics-I.pdf");
+                startViewing("");
                 break;
             case R.id.o30:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Mathematics-II.pdf");
+                startViewing("");
                 break;
             case R.id.o31:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MechEngg-I.pdf");
+                startViewing("");
                 break;
             case R.id.o32:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MechEngg-II.pdf");
+                startViewing("");
                 break;
             case R.id.o33:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MedicalSc-I.pdf");
+                startViewing("");
                 break;
             case R.id.o34:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MedicalSc-II.pdf");
+                startViewing("");
                 break;
             case R.id.o35:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Philosophy-I.pdf");
+                startViewing("");
                 break;
             case R.id.o36:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Philosophy-II.pdf");
+                startViewing("");
                 break;
             case R.id.o37:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Physics-I.pdf");
+                startViewing("");
                 break;
             case R.id.o38:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Physics-II.pdf");
+                startViewing("");
                 break;
             case R.id.o39:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-I.pdf");
+                startViewing("");
                 break;
             case R.id.o40:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-II.pdf");
+                startViewing("");
                 break;
             case R.id.o41:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Psychology-I.pdf");
+                startViewing("");
                 break;
             case R.id.o42:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Psychology-II.pdf");
+                startViewing("");
                 break;
             case R.id.o43:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PublAdmn-I.pdf");
+                startViewing("");
                 break;
             case R.id.o44:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PublAdmn-II.pdf");
+                startViewing("");
                 break;
             case R.id.o45:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Sociology-I.pdf");
+                startViewing("");
                 break;
             case R.id.o46:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Sociology-II.pdf");
+                startViewing("");
                 break;
             case R.id.o47:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Statistics-I.pdf");
+                startViewing("");
                 break;
             case R.id.o48:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Statistics-II.pdf");
+                startViewing("");
                 break;
             case R.id.o49:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Zoology-I.pdf");
+                startViewing("");
                 break;
             case R.id.o50:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-Zoology-II.pdf");
+                startViewing("");
                 break;
 
             case R.id.c1:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-EnglishCompulsory.pdf");
+                startViewing("");
                 break;
             case R.id.c2:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-AssameseCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c3:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-BengaliCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c4:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-DogriCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c5:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GujaratiCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c6:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-HindiCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c7:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-KannadaCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c8:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MaithiliCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c9:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MalayalamCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c10:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-MarathiCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c11:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-NepaliCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c12:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-OriyaCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c13:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-PunjabiCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c14:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SanskritCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c15:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-SindhiCompuloryDev.pdf");
+                startViewing("");
                 break;
             case R.id.c16:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TamilCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c17:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-TeluguCompulory.pdf");
+                startViewing("");
                 break;
             case R.id.c18:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-UrduCompulory.pdf");
+                startViewing("");
                 break;
 
             case R.id.g1:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-I.pdf");
+                startViewing("");
                 break;
             case R.id.g2:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-II.pdf");
+                startViewing("");
                 break;
             case R.id.g3:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-III.pdf");
+                startViewing("");
                 break;
             case R.id.g4:
-                startViewing("HTTPS://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-IV.pdf");
+                startViewing("");
                 break;
 
             default:

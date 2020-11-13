@@ -14,7 +14,12 @@
         android:roundIcon="@drawable/icon_circular"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".civil_main.civil_main_2019"></activity>
+        <activity android:name=".civil_main.civil_main_2014"></activity>
+        <activity android:name=".civil_main.civil_main_2015" />
+        <activity android:name=".civil_main.civil_main_2016" />
+        <activity android:name=".civil_main.civil_main_2017" />
+        <activity android:name=".civil_main.civil_main_2018" />
+        <activity android:name=".civil_main.civil_main_2019" />
         <activity android:name=".upsc.civil_main" />
         <activity android:name=".ies.ies_2020" />
         <activity android:name=".ies.ies_2019" />
@@ -47,7 +52,7 @@
         <activity android:name=".category.cat_category" />
         <activity android:name=".category.iit_jee_category" />
         <activity android:name=".wrong_username_or_password" />
-        <activity android:name=".something_went_wrong" />
+        <activity android:name=".doc_viewer" />
         <activity android:name=".home" />
         <activity android:name=".signup" />
         <activity android:name=".login" />
