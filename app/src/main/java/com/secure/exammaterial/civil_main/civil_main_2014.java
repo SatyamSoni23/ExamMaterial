@@ -293,329 +293,329 @@ public class civil_main_2014 extends AppCompatActivity implements NavigationView
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.gen:
-                startViewing("https://www.upsc.gov.in/sites/default/files/QP-CSM19-Essay.pdf");
+                startViewing("https://www.upsc.gov.in/sites/default/files/EASSY.pdf");
                 break;
 
             case R.id.l1:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ASSAMESE-I.pdf");
                 break;
             case R.id.l2:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ASSAMESE-II.pdf");
                 break;
             case R.id.l3:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.BENGALI-I.pdf");
                 break;
             case R.id.l4:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.BENGALI-II.pdf");
                 break;
             case R.id.l5:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ENGLISH-I.pdf");
                 break;
             case R.id.l6:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ENGLISH-II.pdf");
                 break;
             case R.id.l7:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.GUJARATI-I.pdf");
                 break;
             case R.id.l8:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.GUJARATI-II.pdf");
                 break;
             case R.id.l9:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.HINDI-I.pdf");
                 break;
             case R.id.l10:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.HINDI-II.pdf");
                 break;
             case R.id.l11:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.KANNADA-I.pdf");
                 break;
             case R.id.l12:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.KANNADA-II.pdf");
                 break;
             case R.id.l13:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MAITHILI-I.pdf");
                 break;
             case R.id.l14:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MAITHILI-II.pdf");
                 break;
             case R.id.l15:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MALAYALAM-I.pdf");
                 break;
             case R.id.l16:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MALAYALAM-II.pdf");
                 break;
             case R.id.l17:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MANIPURI-I.pdf");
                 break;
             case R.id.l18:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MANIPURI-II.pdf");
                 break;
             case R.id.l19:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MARATHI-I.pdf");
                 break;
             case R.id.l20:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.MARATHI-II.pdf");
                 break;
             case R.id.l21:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ORIYA-I.pdf");
                 break;
             case R.id.l22:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.ORIYA-II.pdf");
                 break;
             case R.id.l23:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.PUNJABI-I.pdf");
                 break;
             case R.id.l24:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.PUNJABI-II.pdf");
                 break;
             case R.id.l25:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.SANSKRIT-I.pdf");
                 break;
             case R.id.l26:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.SANSKRIT-II.pdf");
                 break;
             case R.id.l27:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.SINDHI%28DEVANAGARI%29-I.pdf");
                 break;
             case R.id.l28:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.SINDHI%28DEVANAGARI%29-II.pdf");
                 break;
             case R.id.l29:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.TAMIL-I.pdf");
                 break;
             case R.id.l30:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.TAMIL-II.pdf");
                 break;
             case R.id.l31:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.TELUGU-I.pdf");
                 break;
             case R.id.l32:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.TELUGU-II.pdf");
                 break;
             case R.id.l33:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.URDU-I.pdf");
                 break;
             case R.id.l34:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LIT.URDU-II.pdf");
                 break;
 
             case R.id.o1:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/AGRICULTURE-I.pdf");
                 break;
             case R.id.o2:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/AGRICULTURE-II.pdf");
                 break;
             case R.id.o3:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ANIMAL%20HUSBANDRY-I.pdf");
                 break;
             case R.id.o4:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ANIMAL%20HUSBANDRY-II.pdf");
                 break;
             case R.id.o5:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ANTHROPOLOGY-I.pdf");
                 break;
             case R.id.o6:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ANTHROPOLOGY-II.pdf");
                 break;
             case R.id.o7:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/BOTANY-I.pdf");
                 break;
             case R.id.o8:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/BOTANY-II.pdf");
                 break;
             case R.id.o9:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/CHEMISTRY-I_0.pdf");
                 break;
             case R.id.o10:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/CHEMISTRY-II_0.pdf");
                 break;
             case R.id.o11:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/CIVIL%20ENGG-I.pdf");
                 break;
             case R.id.o12:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/CIVIL%20ENGG-II.pdf");
                 break;
             case R.id.o13:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/COMMERCE%20%26%20ACCOUNTANCY-I.pdf");
                 break;
             case R.id.o14:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/COMMERCE%20%26%20ACCOUNTANCY-II.pdf");
                 break;
             case R.id.o15:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ECONOMICS-I.pdf");
                 break;
             case R.id.o16:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ECONOMICS-II.pdf");
                 break;
             case R.id.o17:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ELECT.ENGG-I.pdf");
                 break;
             case R.id.o18:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ELECT.ENGG-II.pdf");
                 break;
             case R.id.o19:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GEOGRAPHY-I.pdf");
                 break;
             case R.id.o20:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GEOGRAPHY-II.pdf");
                 break;
             case R.id.o21:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GEOLOGY-I_0.pdf");
                 break;
             case R.id.o22:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GEOLOGY-II_0.pdf");
                 break;
             case R.id.o23:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/HISTORY-I.pdf");
                 break;
             case R.id.o24:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/HISTORY-II.pdf");
                 break;
             case R.id.o25:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LAW-I.pdf");
                 break;
             case R.id.o26:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/LAW-II.pdf");
                 break;
             case R.id.o27:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MANAGEMENT-I.pdf");
                 break;
             case R.id.o28:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MANAGEMENT-II.pdf");
                 break;
             case R.id.o29:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MATHEMATICS-I.pdf");
                 break;
             case R.id.o30:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MATHEMATICS-II.pdf");
                 break;
             case R.id.o31:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MECH%20ENGG-I.pdf");
                 break;
             case R.id.o32:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MECH%20ENGG-II.pdf");
                 break;
             case R.id.o33:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MEDICAL%20SCIENCE-I.pdf");
                 break;
             case R.id.o34:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MEDICAL%20SCIENCE-II.pdf");
                 break;
             case R.id.o35:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PHILOSOPHY-I.pdf");
                 break;
             case R.id.o36:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PHILOSOPHY-II.pdf");
                 break;
             case R.id.o37:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PHYSICS-I.pdf");
                 break;
             case R.id.o38:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PHYSICS-II.pdf");
                 break;
             case R.id.o39:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/POLTICAL%20SCIENCE%20%26%20INT.REL-I.pdf");
                 break;
             case R.id.o40:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/POLTICAL%20SCIENCE%20%26%20INT.REL-II.pdf");
                 break;
             case R.id.o41:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PSYCHOLOGY-I.pdf");
                 break;
             case R.id.o42:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PSYCHOLOGY-II.pdf");
                 break;
             case R.id.o43:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PUBLIC%20ADMIN-I.pdf");
                 break;
             case R.id.o44:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PUBLIC%20ADMIN-II.pdf");
                 break;
             case R.id.o45:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/SOCIOLOGY-I.pdf");
                 break;
             case R.id.o46:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/SOCIOLOGY-II.pdf");
                 break;
             case R.id.o47:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/STATISTICS-I_0.pdf");
                 break;
             case R.id.o48:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/STATISTICS-II_0.pdf");
                 break;
             case R.id.o49:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ZOOLOGY-I.pdf");
                 break;
             case R.id.o50:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ZOOLOGY-II.pdf");
                 break;
 
             case R.id.c1:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ENGLISH%28COMPULSORY%29.pdf");
                 break;
             case R.id.c2:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ASSAMESE%28COMPULSORY%29.pdf");
                 break;
             case R.id.c3:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/BENGALI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c4:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/BODO%28COMPULSORY%29.pdf");
                 break;
             case R.id.c5:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GUJARATI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c6:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/HINDI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c7:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/KANNADA%28COMPULSORY%29.pdf");
                 break;
             case R.id.c8:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MAITHILI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c9:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MALAYALAM%28COMPULSORY%29.pdf");
                 break;
             case R.id.c10:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/MARATHI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c11:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/NEPALI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c12:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/ORIYA%28COMPULSORY%29.pdf");
                 break;
             case R.id.c13:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/PUNJABI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c14:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/SANSKRIT%28COMPULSORY%29.pdf");
                 break;
             case R.id.c15:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/SINDHI%20DEVANAGARI%28COMPULSORY%29.pdf");
                 break;
             case R.id.c16:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/TAMIL%28COMPULSORY%29.pdf");
                 break;
             case R.id.c17:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/TELUGU%28COMPULSORY%29.pdf");
                 break;
             case R.id.c18:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/URDU%28COMPULSORY%29.pdf");
                 break;
 
             case R.id.g1:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-I%20%281%29.pdf");
                 break;
             case R.id.g2:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-II%20%281%29.pdf");
                 break;
             case R.id.g3:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-III.pdf");
                 break;
             case R.id.g4:
-                startViewing("");
+                startViewing("https://www.upsc.gov.in/sites/default/files/GENERAL%20STUDIES-IV.pdf");
                 break;
 
             default:

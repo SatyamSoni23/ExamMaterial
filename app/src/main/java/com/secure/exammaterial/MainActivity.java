@@ -8,6 +8,9 @@ import android.os.Bundle;
 import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
 import com.secure.exammaterial.category.iit_jee_category;
 import com.secure.exammaterial.category.upsc_category;
+import com.secure.exammaterial.civil_main.civil_main_2014;
+import com.secure.exammaterial.civil_main.civil_main_2015;
+import com.secure.exammaterial.civil_main.civil_main_2016;
 import com.secure.exammaterial.civil_main.civil_main_2017;
 import com.secure.exammaterial.civil_main.civil_main_2018;
 import com.secure.exammaterial.civil_main.civil_main_2019;
@@ -27,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, civil_main_2017.class);
+        Intent intent = new Intent(this, upsc_category.class);
         startActivity(intent);
     }
 }
