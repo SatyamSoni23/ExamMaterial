@@ -9,6 +9,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
 public class home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -17,6 +18,9 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
     Toolbar toolbar;
     NavigationView navigationView;
     public static String url = null;
+
+    MaterialCardView jee_main, jee_advanced, civil_pre, civil_main, upsc, cat, neet, gate, cds, cgs, nda, ies;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +38,20 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
         drawerLayout = findViewById(R.id.drawer_layout);
         toolbar = findViewById(R.id.toolbar);
         navigationView = findViewById(R.id.navigation_view);
+
+        jee_main = findViewById(R.id.jee_main_category);
+        jee_advanced = findViewById(R.id.jee_advanced_category);
+        civil_pre = findViewById(R.id.civil_pre_category);
+        civil_main = findViewById(R.id.civil_main_category);
+        upsc = findViewById(R.id.upsc_category);
+        cat = findViewById(R.id.cat_category);
+        neet = findViewById(R.id.neet_category);
+        gate = findViewById(R.id.gate_category);
+        cds = findViewById(R.id.cds_category);
+        cgs = findViewById(R.id.cgs_category);
+        nda = findViewById(R.id.nda_category);
+        ies = findViewById(R.id.ies_category);
+
     }
 
     @Override

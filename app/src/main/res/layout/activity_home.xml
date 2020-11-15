@@ -53,6 +53,7 @@
                     android:weightSum="20"
                     android:layout_marginBottom="10dp">
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/jee_main_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -91,6 +92,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/jee_advanced_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -129,13 +131,99 @@
                     </com.google.android.material.card.MaterialCardView>
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@+id/ll2"
+                    android:id="@+id/ll2_1"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:weightSum="20"
                     android:layout_marginBottom="10dp"
                     android:layout_below="@+id/ll1">
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/civil_pre_category"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_marginRight="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:checkable="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@color/colorPrimaryDark">
+                            <ImageView
+                                android:id="@+id/civil_pre"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/civil_pre"
+                                android:scaleType="fitXY"/>
+                            <TextView
+                                android:id="@+id/civil_pre_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/civil_pre"
+                                android:text="Civil Services (Preliminary)"
+                                android:textColor="@color/white"
+                                android:autoSizeMinTextSize="15dp"
+                                android:autoSizeMaxTextSize="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:gravity="center"
+                                android:fontFamily="@font/pt_sans_narrow_regular"
+                                />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/civil_main_category"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:theme="@style/Theme.MaterialComponents.Light"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:checkable="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@color/colorPrimaryDark">
+                            <ImageView
+                                android:id="@+id/civil_main"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:src="@drawable/civil_main"
+                                android:scaleType="fitXY"/>
+                            <TextView
+                                android:id="@+id/civil_main_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/civil_main"
+                                android:text="Civil Services (Main)"
+                                android:textColor="@color/white"
+                                android:autoSizeMinTextSize="15dp"
+                                android:autoSizeMaxTextSize="20dp"
+                                android:autoSizeTextType="uniform"
+                                android:gravity="center"
+                                android:fontFamily="@font/pt_sans_narrow_regular"
+                                />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:weightSum="20"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/ll2_1">
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/upsc_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -174,6 +262,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cat_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -219,6 +308,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_below="@id/ll2">
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/neet_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -257,6 +347,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/gate_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -302,6 +393,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_below="@id/ll3">
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cds_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -324,11 +416,11 @@
                                 android:src="@drawable/ielts"
                                 android:scaleType="fitXY"/>
                             <TextView
-                                android:id="@+id/ielts_text"
+                                android:id="@+id/cds_text"
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/ielts"
-                                android:text="IELTS"
+                                android:text="CDS"
                                 android:textColor="@color/white"
                                 android:autoSizeMinTextSize="15dp"
                                 android:autoSizeMaxTextSize="20dp"
@@ -340,6 +432,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cgs_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -366,7 +459,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/toelf"
-                                android:text="TOELF"
+                                android:text="Combined Geo-Scientist (Main)"
                                 android:textColor="@color/white"
                                 android:autoSizeMinTextSize="15dp"
                                 android:autoSizeMaxTextSize="20dp"
@@ -384,6 +477,7 @@
                     android:weightSum="20"
                     android:layout_below="@id/ll4">
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/nda_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -410,7 +504,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/cmt_nda"
-                                android:text="CMAT, NDA, CET, GPAT, SAT"
+                                android:text="NDA"
                                 android:textColor="@color/white"
                                 android:autoSizeMinTextSize="15dp"
                                 android:autoSizeMaxTextSize="20dp"
@@ -422,6 +516,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/ies_category"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="10"
@@ -448,7 +543,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/other"
-                                android:text="Other"
+                                android:text="Indian Economic Service"
                                 android:textColor="@color/white"
                                 android:autoSizeMinTextSize="15dp"
                                 android:autoSizeMaxTextSize="20dp"
