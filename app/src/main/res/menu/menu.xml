@@ -1,62 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group>
-        <item
-            android:id="@+id/nav_home"
-            android:title="Home" />
-
-        <item
-            android:id="@+id/nav_cycle"
-
-            android:title="Cycling" />
-
-        <item
-            android:id="@+id/nav_bus"
-
-            android:title="Bus" />
-
-        <item
-            android:id="@+id/nav_plane"
-
-            android:title="Plane" />
-    </group>
-    <item android:title="Profile">
-
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+    <item android:title="Civil Services">
         <menu>
-
             <group android:checkableBehavior="single">
-
                 <item
-                    android:id="@+id/nav_login"
-
-                    android:title="Login" />
-
+                    android:id="@+id/civil_pre_nav"
+                    android:title="Civil pre" />
                 <item
-                    android:id="@+id/nav_profile"
-
-                    android:title="Profile" />
-
+                    android:id="@+id/civil_mai_nav"
+                    android:title="Civil main" />
                 <item
-                    android:id="@+id/nav_logout"
-
-                    android:title="Logout" />
+                    android:id="@+id/nda_nav"
+                    android:title="NDA" />
+                <item
+                    android:id="@+id/cds_nav"
+                    android:title="CDS" />
+                <item
+                    android:id="@+id/cgs_nav"
+                    android:title="Combined Geo-Scientist (Main)" />
+                <item
+                    android:id="@+id/ies_nav"
+                    android:title="Indian Economic Service" />
             </group>
         </menu>
     </item>
-
-    <item android:title="Communicate">
-
+    <item
+        android:title="Engineering">
         <menu>
-
-            <item
-                android:id="@+id/nav_share"
-
-                android:title="Share" />
-
-            <item
-                android:id="@+id/nav_rate"
-
-                android:title="Rate Us" />
+            <group>
+                <item
+                    android:id="@+id/jee_main_nav"
+                    android:title="Jee main" />
+                <item
+                    android:id="@+id/jee_advanced_bus"
+                    android:title="Jee advanced" />
+                <item
+                    android:id="@+id/gate_bus"
+                    android:title="Gate" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Medical">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_neet"
+                    android:title="Neet" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Danger Zone">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/update_password"
+                    android:title="Update password"/>
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"/>
+            </group>
         </menu>
     </item>
 </menu>
