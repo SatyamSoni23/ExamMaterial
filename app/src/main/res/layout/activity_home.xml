@@ -335,7 +335,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:layout_below="@+id/neet"
-                                android:text="Neet"
+                                android:text="Neet &amp; AIIMS"
                                 android:textColor="@color/white"
                                 android:autoSizeMinTextSize="15dp"
                                 android:autoSizeMaxTextSize="20dp"

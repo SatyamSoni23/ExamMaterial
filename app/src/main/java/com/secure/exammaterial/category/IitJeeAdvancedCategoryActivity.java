@@ -71,10 +71,10 @@ public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements
             }
         });
         //---------------------------------------------------------------------------------------------------------------
+        startViewing("https://drive.google.com/file/d/1uEwJAhTdJDRLfikgxSxf1xZzog5OsCST/view?usp=sharing");
         rl_2018_p1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startViewing("https://drive.google.com/file/d/1uEwJAhTdJDRLfikgxSxf1xZzog5OsCST/view?usp=sharing");
             }
         });
         rl_2018_p2.setOnClickListener(new View.OnClickListener() {

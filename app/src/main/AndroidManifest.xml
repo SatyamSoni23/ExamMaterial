@@ -13,8 +13,10 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/icon_circular"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".civil_main.civil_main_2014"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".gate.gate_web_view"></activity>
+        <activity android:name=".civil_main.civil_main_2014" />
         <activity android:name=".civil_main.civil_main_2015" />
         <activity android:name=".civil_main.civil_main_2016" />
         <activity android:name=".civil_main.civil_main_2017" />
