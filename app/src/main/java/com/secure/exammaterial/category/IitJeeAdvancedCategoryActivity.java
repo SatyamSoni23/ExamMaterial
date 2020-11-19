@@ -14,9 +14,17 @@ import android.widget.RelativeLayout;
 
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 import com.secure.exammaterial.R;
 import com.secure.exammaterial.home;
+import com.secure.exammaterial.login;
 import com.secure.exammaterial.pdf_viewer;
+import com.secure.exammaterial.upsc.cds;
+import com.secure.exammaterial.upsc.cgs_category;
+import com.secure.exammaterial.upsc.civil_main;
+import com.secure.exammaterial.upsc.civil_pre;
+import com.secure.exammaterial.upsc.ies_category;
+import com.secure.exammaterial.upsc.nda_nae;
 
 public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -28,12 +36,25 @@ public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements
             rl_2012_p1, rl_2011_p1, rl_2010_p1, rl_2009_p1, rl_2008_p1, rl_2007_p1, rl_2006_p1, rl_2005_p1;
     MaterialCardView rl_2020_p2, rl_2019_p2, rl_2018_p2, rl_2017_p2, rl_2016_p2, rl_2015_p2, rl_2014_p2, rl_2013_p2,
             rl_2012_p2, rl_2011_p2, rl_2010_p2, rl_2009_p2, rl_2008_p2, rl_2007_p2, rl_2006_p2, rl_2005_p2;
+
+    FirebaseAuth mAuth;
+
+    @Override
+    protected void onStart() {
+        if(mAuth.getCurrentUser() == null){
+            onBackPressed();
+        }
+        super.onStart();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.iit_jee_advanced_category);
 
         init();
+
+        mAuth = FirebaseAuth.getInstance();
 
         navigationView.bringToFront();
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(IitJeeAdvancedCategoryActivity.this, drawerLayout, toolbar,
@@ -71,10 +92,10 @@ public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements
             }
         });
         //---------------------------------------------------------------------------------------------------------------
-        startViewing("https://drive.google.com/file/d/1uEwJAhTdJDRLfikgxSxf1xZzog5OsCST/view?usp=sharing");
         rl_2018_p1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startViewing("https://drive.google.com/file/d/1uEwJAhTdJDRLfikgxSxf1xZzog5OsCST/view?usp=sharing");
             }
         });
         rl_2018_p2.setOnClickListener(new View.OnClickListener() {
@@ -300,8 +321,53 @@ public class IitJeeAdvancedCategoryActivity extends AppCompatActivity implements
         home.url = url_res;
         startActivity(intent);
     }
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+        int id = item.getItemId();
+        if(id == R.id.nav_home){
+            start_nav_activity(home.class);
+        }
+        else if(id == R.id.civil_pre_nav){
+            start_nav_activity(civil_pre.class);
+        }
+        else if(id == R.id.civil_main_nav){
+            start_nav_activity(civil_main.class);
+        }
+        else if(id == R.id.nda_nav){
+            start_nav_activity(nda_nae.class);
+        }
+        else if(id == R.id.cds_nav){
+            start_nav_activity(cds.class);
+        }
+        else if(id == R.id.cgs_nav){
+            start_nav_activity(cgs_category.class);
+        }
+        else if(id == R.id.ies_nav){
+            start_nav_activity(ies_category.class);
+        }
+        else if(id == R.id.jee_main_nav){
+            start_nav_activity(iit_jee_category.class);
+        }
+        else if(id == R.id.jee_advanced_nav){
+            start_nav_activity(IitJeeAdvancedCategoryActivity.class);
+        }
+        else if(id == R.id.gate_nav){
+            start_nav_activity(gate_category.class);
+        }
+        else if(id == R.id.neet_nav){
+            start_nav_activity(neet_category.class);
+        }
+        else if(id == R.id.logout){
+            mAuth.signOut();
+            Intent intent = new Intent(this, login.class);
+            startActivity(intent);
+        }
+        return true;
+    }
+
+    void start_nav_activity(Class act){
+        Intent intent = new Intent(this, act);
+        startActivity(intent);
     }
 }

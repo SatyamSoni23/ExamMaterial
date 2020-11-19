@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324677296749",
+    "firebase_url": "https://exam-material-ec1b6.firebaseio.com",
+    "project_id": "exam-material-ec1b6",
+    "storage_bucket": "exam-material-ec1b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324677296749:android:5fb681c292d00ab670d564",
+        "android_client_info": {
+          "package_name": "com.secure.exammaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324677296749-m1ptljp3qelsaqnn4ir3iqdo7ppg4os1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.secure.exammaterial",
+            "certificate_hash": "87232138418886e73f91b9f6cfb0c87b0f7de1f7"
+          }
+        },
+        {
+          "client_id": "324677296749-bqlnregsjdk0fdrig98gn9e21esu8ks6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS5hnsRTKuVxWJc7058DFdNr8K_rYag2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324677296749-bqlnregsjdk0fdrig98gn9e21esu8ks6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

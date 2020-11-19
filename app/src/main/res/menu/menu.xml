@@ -10,7 +10,7 @@
                     android:id="@+id/civil_pre_nav"
                     android:title="Civil pre" />
                 <item
-                    android:id="@+id/civil_mai_nav"
+                    android:id="@+id/civil_main_nav"
                     android:title="Civil main" />
                 <item
                     android:id="@+id/nda_nav"
@@ -35,10 +35,10 @@
                     android:id="@+id/jee_main_nav"
                     android:title="Jee main" />
                 <item
-                    android:id="@+id/jee_advanced_bus"
+                    android:id="@+id/jee_advanced_nav"
                     android:title="Jee advanced" />
                 <item
-                    android:id="@+id/gate_bus"
+                    android:id="@+id/gate_nav"
                     android:title="Gate" />
             </group>
         </menu>
@@ -48,7 +48,7 @@
         <menu>
             <group>
                 <item
-                    android:id="@+id/nav_neet"
+                    android:id="@+id/neet_nav"
                     android:title="Neet" />
             </group>
         </menu>

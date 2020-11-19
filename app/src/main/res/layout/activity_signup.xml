@@ -30,8 +30,24 @@
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar"
         android:background="@color/colorAccent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <com.agrawalsuneet.loaderspack.loaders.MultipleRippleLoader
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:multipleripple_animDuration="6000"
+                app:multipleripple_circleColor="@color/colorPrimaryDark"
+                app:multipleripple_circleInitialRadius="20dp"
+                app:multipleripple_fromAlpha="0.8"
+                app:multipleripple_interpolator="@android:anim/decelerate_interpolator"
+                app:multipleripple_noOfRipples="3"
+                app:multipleripple_toAplha="0.1"
+                android:gravity="center"/>
+        </LinearLayout>
         <TextView
-            android:id="@+id/login"
+            android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Signup"
@@ -71,6 +87,7 @@
                 android:paddingTop="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColorHint="@color/colorPrimary"
@@ -102,6 +119,7 @@
                 android:paddingTop="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColorHint="@color/colorPrimary"
@@ -131,6 +149,7 @@
                 android:paddingTop="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/cnf_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColorHint="@color/colorPrimary"
@@ -146,7 +165,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="0.3"/>
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/textButton"
+                android:id="@+id/signup_button"
                 android:layout_width="150dp"
                 android:layout_height="0dp"
                 android:layout_weight="3"
@@ -154,24 +173,65 @@
                 android:autoSizeMinTextSize="14sp"
                 android:autoSizeMaxTextSize="18sp"
                 android:autoSizeTextType="uniform"
-                android:text="Login"
+                android:text="Signup"
                 android:fontFamily="@font/roboto_condensed_regular"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/colorAccent"
                 />
         </LinearLayout>
-        <com.google.android.material.textview.MaterialTextView
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_below="@+id/ll1"
-            android:text="Already a member? Login"
-            android:autoSizeMinTextSize="14dp"
-            android:autoSizeMaxTextSize="18dp"
-            android:autoSizeTextType="uniform"
+            android:layout_below="@id/ll1"
             android:gravity="center"
-            android:textColor="@color/colorPrimaryDark"
-            app:fontFamily="@font/roboto_condensed_regular">
-
-        </com.google.android.material.textview.MaterialTextView>
+            android:layout_marginTop="10dp">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/first_text"
+                android:layout_width="150sp"
+                android:layout_height="40dp"
+                android:text="Already a member? "
+                android:autoSizeMinTextSize="14dp"
+                android:autoSizeMaxTextSize="18dp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                app:fontFamily="@font/roboto_condensed_regular"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/login"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="Login"
+                android:autoSizeMinTextSize="18dp"
+                android:autoSizeMaxTextSize="22dp"
+                android:autoSizeTextType="uniform"
+                android:layout_toRightOf="@id/first_text"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                app:fontFamily="@font/roboto_condensed_regular"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <com.agrawalsuneet.loaderspack.loaders.CircularSticksLoader
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:circularsticks_animDuration="100"
+            app:circularsticks_firstShadowColor="#aa000000"
+            app:circularsticks_innerCircleRadius="50dp"
+            app:circularsticks_noOfSticks="32"
+            app:circularsticks_outerCircleRadius="80dp"
+            app:circularsticks_secondShadowColor="#77000000"
+            app:circularsticks_selectedStickColor="@color/black"
+            app:circularsticks_showRunningShadow="true"
+            app:circularsticks_stickColor="#A9A9A9"
+            app:circularsticks_viewBackgroundColor="@color/white" />
     </RelativeLayout>
 </RelativeLayout>
