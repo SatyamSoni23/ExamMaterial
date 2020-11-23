@@ -125,8 +125,10 @@
                     android:textColorHint="@color/colorPrimary"
                     android:textColor="@color/colorPrimaryDark"
                     android:fontFamily="@font/roboto_condensed_regular"
+                    android:maxLines="1"
                     android:singleLine="true"
                     android:inputType="textPassword"
+                    android:textCursorDrawable="@null"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -155,8 +157,10 @@
                     android:textColorHint="@color/colorPrimary"
                     android:textColor="@color/colorPrimaryDark"
                     android:fontFamily="@font/roboto_condensed_regular"
+                    android:maxLines="1"
                     android:singleLine="true"
                     android:inputType="textPassword"
+                    android:textCursorDrawable="@null"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -225,9 +229,9 @@
             android:layout_margin="16dp"
             app:circularsticks_animDuration="100"
             app:circularsticks_firstShadowColor="#aa000000"
-            app:circularsticks_innerCircleRadius="50dp"
+            app:circularsticks_innerCircleRadius="30dp"
             app:circularsticks_noOfSticks="32"
-            app:circularsticks_outerCircleRadius="80dp"
+            app:circularsticks_outerCircleRadius="60dp"
             app:circularsticks_secondShadowColor="#77000000"
             app:circularsticks_selectedStickColor="@color/black"
             app:circularsticks_showRunningShadow="true"

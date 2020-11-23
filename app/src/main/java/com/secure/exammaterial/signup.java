@@ -83,7 +83,16 @@ public class signup extends AppCompatActivity {
                     progress_bar.startAnimation(alpha);
                     return;
                 }
-                if(password.getText().toString().equals(cnf_password.getText().toString())){
+                if(password.getText().toString().length() < 8){
+                    Toast.makeText(signup.this, "Password must be greater than 8 character", Toast.LENGTH_SHORT).show();
+                    alpha = new AlphaAnimation(0.0F, 0.0F);
+                    alpha.setDuration(0);
+                    alpha.setFillAfter(true);
+                    rl2.setAlpha((float) 1);
+                    progress_bar.startAnimation(alpha);
+                    return;
+                }
+                if(!(password.getText().toString().equals(cnf_password.getText().toString()))){
                     Toast.makeText(signup.this, "Confirm password not match with your password", Toast.LENGTH_SHORT).show();
                     alpha = new AlphaAnimation(0.0F, 0.0F);
                     alpha.setDuration(0);

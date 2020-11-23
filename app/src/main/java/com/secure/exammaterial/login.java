@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class login extends AppCompatActivity {
 
-    MaterialTextView signup;
+    MaterialTextView signup, forgot_password;
     private FirebaseAuth mAuth;
     private TextInputEditText email, password;
     MaterialButton login_button;
@@ -56,6 +56,9 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         init();
+
+        MainActivity.flag = true;
+
         mAuth = FirebaseAuth.getInstance();
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,6 +112,13 @@ public class login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        forgot_password.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, update_password.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void init() {
@@ -118,6 +128,7 @@ public class login extends AppCompatActivity {
         login_button = findViewById(R.id.login_button);
         progress_bar = findViewById(R.id.progress_bar);
         rl2 = findViewById(R.id.rl2);
+        forgot_password = findViewById(R.id.forgot_password);
     }
 
     boolean doubleBackToExitPressedOnce = false;
@@ -125,8 +136,8 @@ public class login extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-            super.onBackPressed();
-            return;
+            login.this.finish();
+            moveTaskToBack(true);
         }
 
         this.doubleBackToExitPressedOnce = true;

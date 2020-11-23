@@ -2,13 +2,17 @@ package com.secure.exammaterial;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
@@ -17,6 +21,7 @@ import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
 import com.secure.exammaterial.category.gate_category;
 import com.secure.exammaterial.category.iit_jee_category;
 import com.secure.exammaterial.category.neet_category;
+import com.secure.exammaterial.category.upsc_category;
 import com.secure.exammaterial.upsc.cds;
 import com.secure.exammaterial.upsc.cgs_category;
 import com.secure.exammaterial.upsc.civil_main;
@@ -24,7 +29,7 @@ import com.secure.exammaterial.upsc.civil_pre;
 import com.secure.exammaterial.upsc.ies_category;
 import com.secure.exammaterial.upsc.nda_nae;
 
-public class home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     DrawerLayout drawerLayout;
     Toolbar toolbar;
@@ -48,6 +53,9 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
         setContentView(R.layout.activity_home);
 
         init();
+
+        MainActivity.flag = true;
+
         mAuth = FirebaseAuth.getInstance();
 
         navigationView.bringToFront();
@@ -76,6 +84,18 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
         nda = findViewById(R.id.nda_category);
         ies = findViewById(R.id.ies_category);
 
+        jee_main.setOnClickListener(this);
+        jee_advanced.setOnClickListener(this);
+        civil_pre.setOnClickListener(this);
+        civil_main.setOnClickListener(this);
+        upsc.setOnClickListener(this);
+        cat.setOnClickListener(this);
+        neet.setOnClickListener(this);
+        gate.setOnClickListener(this);
+        cds.setOnClickListener(this);
+        cgs.setOnClickListener(this);
+        nda.setOnClickListener(this);
+        ies.setOnClickListener(this);
     }
 
     @Override
@@ -114,6 +134,9 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
         }
+        else if(id == R.id.update_password){
+            start_nav_activity(update_password.class);
+        }
         else if(id == R.id.logout){
             mAuth.signOut();
             Intent intent = new Intent(this, login.class);
@@ -125,5 +148,73 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
     void start_nav_activity(Class act){
         Intent intent = new Intent(this, act);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.jee_main_category:
+                start_nav_activity(iit_jee_category.class);
+                break;
+            case R.id.jee_advanced_category:
+                start_nav_activity(IitJeeAdvancedCategoryActivity.class);
+                break;
+            case R.id.civil_pre_category:
+                start_nav_activity(civil_pre.class);
+                break;
+            case R.id.civil_main_category:
+                start_nav_activity(civil_main.class);
+                break;
+            case R.id.upsc_category:
+                start_nav_activity(upsc_category.class);
+                break;
+            case R.id.cat_category:
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(home.this);
+                alertDialogBuilder.setMessage("Sorry, These Category will be soon added.");
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
+                break;
+            case R.id.neet_category:
+                start_nav_activity(neet_category.class);
+                break;
+            case R.id.gate_category:
+                start_nav_activity(gate_category.class);
+                break;
+            case R.id.cds_category:
+                start_nav_activity(cds.class);
+                break;
+            case R.id.cgs_category:
+                start_nav_activity(cgs_category.class);
+                break;
+            case R.id.nda_category:
+                start_nav_activity(nda_nae.class);
+                break;
+            case R.id.ies_category:
+                start_nav_activity(ies_category.class);
+                break;
+            default:
+                break;
+        }
+    }
+
+    boolean doubleBackToExitPressedOnce = false;
+
+    @Override
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            home.this.finish();
+            moveTaskToBack(true);
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
 }

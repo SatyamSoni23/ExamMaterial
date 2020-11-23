@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.widget.Toast;
 
 import com.secure.exammaterial.category.IitJeeAdvancedCategoryActivity;
 import com.secure.exammaterial.category.gate_category;
@@ -28,11 +30,35 @@ import com.secure.exammaterial.upsc.nda_nae;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static boolean flag = false;
+
+    @Override
+    protected void onStart() {
+        if(flag){
+            Toast.makeText(this, "Main Activity", Toast.LENGTH_SHORT).show();
+            MainActivity.this.finish();
+            System.exit(0);
+            super.onStart();
+        }
+        else{
+            super.onStart();
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(this, login.class);
-        startActivity(intent);
+
+        if(!flag) {
+            new Handler().postDelayed(new Runnable() {
+
+                @Override
+                public void run() {
+                    Intent intent = new Intent(MainActivity.this, login.class);
+                    startActivity(intent);
+                }
+            }, 1000);
+        }
     }
 }

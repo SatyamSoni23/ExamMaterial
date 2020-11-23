@@ -164,6 +164,9 @@ public class pdf_viewer extends AppCompatActivity implements NavigationView.OnNa
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
         }
+        else if(id == R.id.update_password){
+            start_nav_activity(update_password.class);
+        }
         else if(id == R.id.logout){
             mAuth.signOut();
             Intent intent = new Intent(this, login.class);

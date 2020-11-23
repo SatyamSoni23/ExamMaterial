@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".gate.gate_web_view"></activity>
+        <activity android:name=".update_password"></activity>
+        <activity android:name=".gate.gate_web_view" />
         <activity android:name=".civil_main.civil_main_2014" />
         <activity android:name=".civil_main.civil_main_2015" />
         <activity android:name=".civil_main.civil_main_2016" />

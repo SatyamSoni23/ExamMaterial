@@ -28,6 +28,7 @@ import com.secure.exammaterial.cgs.cgs_2019;
 import com.secure.exammaterial.cgs.cgs_2020;
 import com.secure.exammaterial.home;
 import com.secure.exammaterial.login;
+import com.secure.exammaterial.update_password;
 
 public class civil_main extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -172,6 +173,9 @@ public class civil_main extends AppCompatActivity implements NavigationView.OnNa
         }
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
+        }
+        else if(id == R.id.update_password){
+            start_nav_activity(update_password.class);
         }
         else if(id == R.id.logout){
             mAuth.signOut();

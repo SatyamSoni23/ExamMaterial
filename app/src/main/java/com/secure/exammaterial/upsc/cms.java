@@ -22,6 +22,7 @@ import com.secure.exammaterial.category.neet_category;
 import com.secure.exammaterial.home;
 import com.secure.exammaterial.login;
 import com.secure.exammaterial.pdf_viewer;
+import com.secure.exammaterial.update_password;
 
 public class cms extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -219,6 +220,9 @@ public class cms extends AppCompatActivity implements NavigationView.OnNavigatio
         }
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
+        }
+        else if(id == R.id.update_password){
+            start_nav_activity(update_password.class);
         }
         else if(id == R.id.logout){
             mAuth.signOut();

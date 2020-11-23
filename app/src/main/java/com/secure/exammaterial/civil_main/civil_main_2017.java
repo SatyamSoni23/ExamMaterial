@@ -23,6 +23,7 @@ import com.secure.exammaterial.doc_viewer;
 import com.secure.exammaterial.home;
 import com.secure.exammaterial.login;
 import com.secure.exammaterial.pdf_viewer;
+import com.secure.exammaterial.update_password;
 import com.secure.exammaterial.upsc.cds;
 import com.secure.exammaterial.upsc.cgs_category;
 import com.secure.exammaterial.upsc.civil_main;
@@ -349,6 +350,9 @@ public class civil_main_2017 extends AppCompatActivity implements NavigationView
         }
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
+        }
+        else if(id == R.id.update_password){
+            start_nav_activity(update_password.class);
         }
         else if(id == R.id.logout){
             mAuth.signOut();
