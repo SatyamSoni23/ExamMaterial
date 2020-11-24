@@ -53,6 +53,16 @@
             </group>
         </menu>
     </item>
+    <item android:title="Developer">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about_us"
+                    android:title="About Us"/>
+            </group>
+        </menu>
+    </item>
     <item android:title="Danger Zone">
         <menu>
             <group

@@ -134,6 +134,9 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
         else if(id == R.id.neet_nav){
             start_nav_activity(neet_category.class);
         }
+        else if(id == R.id.about_us){
+            start_nav_activity(about_us.class);
+        }
         else if(id == R.id.update_password){
             start_nav_activity(update_password.class);
         }
